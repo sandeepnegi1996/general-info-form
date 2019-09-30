@@ -8,46 +8,48 @@ body {
     background-color: #ECEEF0;
 }
 
-.sign-in-div {
-    height: 60%;
+.sign-form {
+    height: 450px;
+    width: 450px;
     position: relative;
-    left: 40%;
+    left: 15%;
     top: 50%;
     text-align: center;
-    border: 5px solid black;
-    background-color: #984BEB;
+    border: 1px solid grey;
     transform: translate(-50%, -50%);
-    border-radius: 5%;
+    background-color: #984BEB;
+    border-radius: 10%;
 }
 
 .logo {
     position: absolute;
-    left: 50%;
+    left: 40%;
     top: 10%;
 }
 
 .username-div {
     position: absolute;
-    left: 50%;
     top: 20%;
+}
+
+input {
+    width: 200%;
 }
 
 .email-div {
     position: absolute;
-    left: 50%;
     top: 30%;
 }
 
 .password-div {
     position: absolute;
-    left: 50%;
     top: 40%;
 }
 
 .btn-sign {
     position: absolute;
-    left: 50%;
-    top: 50%;
+    top: 70%;
+    left: 40%;
 }
 
 input {
